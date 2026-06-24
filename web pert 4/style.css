@@ -1,0 +1,131 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#judulsatu,
+#juduldua {
+  color: red;
+}
+
+#judulsatu {
+  color: blue !important;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Home */
+.nav .home li {
+  display: inline-flex;
+}
+
+/* Menu Utama */
+.nav .sub-nav li {
+  display: inline-flex;
+  padding: 4px;
+  position: relative;
+}
+
+/* Submenu */
+.nav .sub-nav li .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 10px;
+  min-width: 180px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav .sub-nav li:hover .submenu {
+  display: block;
+}
+
+.nav .sub-nav li .submenu li {
+  display: block;
+  padding: 5px;
+}
+
+/* Authentication */
+.nav .authentication li {
+  display: inline-flex;
+  padding: 4px;
+}
+
+.nav .authentication li a {
+  text-decoration: none;
+}
+
+.nav .authentication li .login {
+  background-color: rgb(234, 232, 232);
+  color: blue;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.nav .authentication li .register {
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.nav .authentication li .login:hover {
+  background-color: gray;
+  color: white;
+}
+
+.nav .authentication li .register:hover {
+  background-color: rgb(72, 72, 244);
+  color: white;
+}
+
+/* PMB */
+.pmb {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.pmb:hover {
+  color: blue;
+}
+
+/* CTA */
+.cta {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.cta:hover {
+  background-color: darkgreen;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table thead {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contoh</title>
+  </head>
+  <body>
+    <form action="" enctype="multipart/form-data">
+      <table border="1" cellpadding="6">
+        <h1>Halaman Registrasi</h1>
+        <p>
+          Silahkan buat akun jika anda belum punya akses untuk login ke dalam
+          sistem kami
+        </p>
+        <tbody>
+          <tr>
+            <td>Nama Depan</td>
+            <td>:</td>
+            <td>
+              <input
+                type="firts_name"
+                placeholder="Silahkan isikan nama depan anda"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Nama Tengah</td>
+            <td>:</td>
+            <td>
+              <input
+                type="middle_name"
+                placeholder="Silahkan isikan nama tengah anda (Optional)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Nama Belakang</td>
+            <td>:</td>
+            <td>
+              <input
+                type="last_name"
+                placeholder="Silahkan isikan nama Belakang"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>
+              <input type="mail" placeholder="Silahkan isikan email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+              <div class="gender">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender"
+                  value="Laki-Laki"
+                />
+                <label for="">Laki-Laki</label>
+
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender"
+                  value="Perempuan"
+                />
+                <label for="">Perempuan</label>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Tempat/Tgl.Lahir</td>
+            <td>:</td>
+            <td>
+              <input
+                type="text"
+                name="tempat_lahir"
+                placeholder="Tempat Lahit"
+              />
+
+              <input
+                type="week"
+                name="tgl_lahir"
+                placeholder="Pilih Tanggal Lahirs"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>No. Telp</td>
+            <td>:</td>
+            <td>
+              <input type="text" placeholder="Silahkan isikan No.Telp" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="5"
+                placeholder="Silahkan isikan alamat anda"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Foto Profile</td>
+            <td>:</td>
+            <td>
+              <input
+                type="file"
+                accept=".png"
+                placeholder="Silahkan upload foto profile"
+              />
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              <a href="/">Kembali</a>
+              <button type="reset">Batal</button>
+              <button type="submit">Register</button>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>

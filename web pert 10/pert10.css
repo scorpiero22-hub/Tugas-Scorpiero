@@ -1,0 +1,109 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+/* HEADING */
+h2, h3 {
+    color: #44b45e;
+}
+
+/* HEADER */
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #44b45e;
+    text-align: center;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #358e49;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* LOGIN BUTTON */
+#login {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* MAIN */
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+/* CONTENT */
+#content {
+    float: left;
+    width: 75%;
+}
+
+/* SIDEBAR */
+aside {
+    float: right;
+    width: 23%;
+}
+
+/* CARD */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+/* PROFILE */
+.profile header {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background-color: #4b4b5e;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}

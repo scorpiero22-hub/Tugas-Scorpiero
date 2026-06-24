@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="pert10.css">
+</head>
+
+<body id="body">
+
+<header>
+
+    <div id="home" class="jumbotron">
+        <h1>Medan</h1>
+        <p>
+            Ibu kota provinsi Sumatera Utara, Indonesia.
+            Kota ini merupakan kota terbesar ketiga di Indonesia
+            setelah DKI Jakarta dan Surabaya.
+        </p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sejarah">Sejarah</a></li>
+            <li><a href="#geografis">Geografis</a></li>
+            <li><a href="#wisata">Wisata</a></li>
+
+            <li id="login">
+                <a href="login.html">Login</a>
+            </li>
+
+            <li>
+                <span id="switch">🌞</span>
+
+                <a href="#"
+                   id="theme"
+                   onmouseover="enterSwitch()"
+                   onmouseout="exitSwitch()"
+                   onclick="applySwitch()">
+                    It's Light Mode
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <div id="content">
+
+        <article id="sejarah" class="card">
+            <h2>Sejarah</h2>
+            <p>
+                Sejarah Kota Medan dimulai dari sebuah kampung kecil.
+            </p>
+        </article>
+
+        <article id="geografis" class="card">
+            <h2>Geografis</h2>
+            <p>
+                Kota Medan memiliki luas wilayah sekitar 265 km².
+            </p>
+        </article>
+
+    </div>
+
+    <aside>
+        <article class="profile card">
+            <header>
+                <h2>Kota Medan</h2>
+                <p>Kota Wisata dan Budaya</p>
+            </header>
+        </article>
+    </aside>
+
+</main>
+
+<footer>
+    <p>Belajar DOM JavaScript</p>
+</footer>
+
+<script src="pert10.js"></script>
+
+</body>
+</html>

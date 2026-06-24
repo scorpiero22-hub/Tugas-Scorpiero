@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+/* Menggunakan font serif (Times New Roman) tebal sesuai tampilan di modul */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+/* Susunan horizontal antara input dan tombol */
+.form-konversi {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kotak input teks dengan border abu-abu */
+input[type="text"] {
+    width: 250px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #a6a6a6;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder {
+    color: #8e8e8e;
+}
+
+/* Tombol abu-abu standar sistem */
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #efefef;
+    color: #000000;
+    border: 1px solid #767676;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+}
